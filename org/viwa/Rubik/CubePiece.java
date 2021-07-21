@@ -15,12 +15,20 @@ public class CubePiece {
     /**
      * Location stores x and y position of the piece in the matrix of current side of the cube.
      */
-    class Location{
+    public class Location {
         int x;
         int y;
         public Location(int x, int y) {
             this.x = x;
             this.y = y;
+        }
+
+        public int x() {
+            return this.x;
+        }
+
+        public int y() {
+            return this.y;
         }
     }
     
